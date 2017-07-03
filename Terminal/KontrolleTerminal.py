@@ -30,11 +30,10 @@ class StartC(object):
 
     # noinspection PyCallByClass
     def Change_Style(self):
-        StyleString = "Style Auswahl\n" \
-                      "[1] Style mit Fingern\n" \
-                      "[2] Style mit Klaue\n\n"
-
-        self.Style = int(input(StyleString))
+                StyleString =   "Style Auswahl\n" \
+                                "[1] Style mit Fingern\n" \
+                                "[2] Style mit Klaue\n\n"
+                self.Style = int(input(StyleString))
         
         
     def Starten(self):
@@ -79,9 +78,9 @@ class StartC(object):
                     elif (Ende == 0):
                         x = 1
                     else:
-                        print("Error")
+                        print("Error 405")
             elif (Auswahl == 6):
-                  print("\n\n\n")
+                print("\n\n\n")
                 self.Change_Style()
                 """
             else:
