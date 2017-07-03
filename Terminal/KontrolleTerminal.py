@@ -40,7 +40,7 @@ class StartC(object):
                         "[6]    Style Ändern\n" \
                         "Die Zahl in der Eckigen Klammer ist für die Eingabe: "
         while (True):
-            Auswahl = input(Auswahlstring)
+            Auswahl = int(input(Auswahlstring))
 
             if (Auswahl == 1):
                 print("\n\n\n")
