@@ -74,7 +74,6 @@ class StartC(object):
             elif (Auswahl == 5):
                 print("\n\n\n")
                 x = 0
-                LED.Start(self)
                 while (x <= 1):
                     Buchstabe = int(input("Bitte einen Buchtaben auswählen 1-26 = A-Z Ä=27 Ü=28 Ö=29"))
                     # noinspection PyCallByClass
