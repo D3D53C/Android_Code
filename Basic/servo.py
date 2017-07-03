@@ -11,6 +11,7 @@ __status__ = "Dev"
 
 import RPi.GPIO as gpio
 gpio.setmode(gpio.BOARD)
+gpio.setwarnings(False)
 
 
 class Servo(object):
