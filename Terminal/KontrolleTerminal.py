@@ -10,8 +10,8 @@ class StartC(object):
     def __init__(self):
 
         self.Style = 1;
-        Array_Glieder = []
-        Klaue = []
+        Array_Glieder = [0, 1, 2, 3, 4, 5, 6, 7]
+        Klaue = [0, 1]
 
         Klaue[0] = 180
         Klaue[1] = 0
