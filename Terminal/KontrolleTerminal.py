@@ -7,6 +7,7 @@ from Basic.servo import Servo as Servo
 
 # noinspection PyCallByClass
 class StartC(object):
+                
     def __init__(self):
 
         self.Style = 1;
@@ -27,14 +28,19 @@ class StartC(object):
 
         self.Action = Action(self.Style, Array_Glieder, Klaue)
         self.Manuel = Manuel(self.Style, Array_Glieder, Klaue)
-
+        
+        
+        self.StyleString =   "Style Auswahl\n" \
+                         "[1] Style mit Fingern\n" \
+                         "[2] Style mit Klaue\n"\
+                         "Ihre Eingabe :"
+                
+        self.Eingabebestaetigung = "Eingabe Bestätigt \n"\
+                               "\n\n"
     # noinspection PyCallByClass
     def Change_Style(self):
-                StyleString =   "Style Auswahl\n" \
-                                "[1] Style mit Fingern\n" \
-                                "[2] Style mit Klaue\n"\
-                                "Ihre Eingabe :"
-                self.Style = int(input(StyleString))
+                self.Style = int(input(self.StyleString))
+                print(self.Eingabebestaetigung)
         
         
     def Starten(self):
