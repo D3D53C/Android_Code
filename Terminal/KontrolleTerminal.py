@@ -30,29 +30,34 @@ class StartC(object):
 
     # noinspection PyCallByClass
     def Starten(self):
-        Auswahlstring = "Ihnen stehen folgende Actionen zurverfügung:" \
+        Auswahlstring = "Ihnen stehen folgende Actionen zurverfügung:\n\n" \
                         "[1]    Action1 (Finger auf und zu)\n" \
                         "[2]    Action2 (Bewegt Elenbogen hoch Handgelenk nach vorne und alle Finger auf und zu)\n" \
                         "[3]    Action3 (Greifen)\n" \
                         "[4]    Manuel  (Laesst sie die Gelenke einzeld bewegen)\n" \
                         "[5]    LED Morsecode\n" \
                         "[6]    Style Ändern\n" \
-                        "Die Zahl in der Eckigen Klammer ist für die Eingabe\n\n"
+                        "Die Zahl in der Eckigen Klammer ist für die Eingabe: "
         while (True):
             Auswahl = input(Auswahlstring)
 
             if (Auswahl == 1):
+                print("\n\n\n")
                 Action.Action1()
                 break
             elif (Auswahl == 2):
+                  print("\n\n\n")
                 Action.Action2()
                 break
             elif (Auswahl == 3):
+                  print("\n\n\n")
                 Action.Action3()
                 break
             elif (Auswahl == 4):
+                  print("\n\n\n")
                 Manuel.Kontrolle()
             elif (Auswahl == 5):
+                  print("\n\n\n")
                 x = 0
                 LED.Start()
                 while (x <= 1):
@@ -67,6 +72,7 @@ class StartC(object):
                     else:
                         print("Error")
             elif (Auswahl == 6):
+                  print("\n\n\n")
                 self.Change_Style()
             else:
                 print("ERROR")
