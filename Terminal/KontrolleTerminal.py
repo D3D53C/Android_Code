@@ -3,6 +3,7 @@ from .Action import ActrionC as Action
 from .Manuel import ManuelC as Manuel
 from Basic.LED import LED_C as LED
 from Basic.servo import Servo as Servo
+import sys
 
 
 # noinspection PyCallByClass
@@ -45,6 +46,7 @@ class StartC(object):
     def Starten(self):
         print("\n\n\n")
         Auswahlstring = "Ihnen stehen folgende Aktionen zurverfügung:\n\n" \
+                        "[0]    Um das Programm zu beenden"
                         "[1]    Action1 (Finger auf und zu)\n" \
                         "[2]    Action2 (Bewegt Elenbogen hoch Handgelenk nach vorne und alle Finger auf und zu)\n" \
                         "[3]    Action3 (Greifen)\n" \
@@ -54,11 +56,13 @@ class StartC(object):
                         "Die Zahl in der Eckigen Klammer ist für die Eingabe: "
         while (True):
             Auswahl = int(input(Auswahlstring))
-
+            
             if (Auswahl == 1):
                 print("\n\n\n")
                 Action.Action1()
                 break
+            elif (Auswahl == 0):
+                sys.exit
             elif (Auswahl == 2):
                 print("\n\n\n")
                 Action.Action2()
