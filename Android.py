@@ -41,7 +41,7 @@ def main():
             Terminal1.Starten()
             break
         elif Var == 2:
-            pass
+            print("Not available")
             break
         else:
             print("Error")
