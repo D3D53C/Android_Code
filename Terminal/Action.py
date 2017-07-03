@@ -1,3 +1,4 @@
+
 from Basic.servo import Servo as Servo
 import time
 import sys
@@ -5,6 +6,9 @@ import sys
 
 # noinspection PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass
 class ActrionC():
+    
+    Style = 1
+    
     def __init__(self, Style, Array_Glieder, Klaue):
         self.style = Style
         self.K1Open = Klaue[0]
