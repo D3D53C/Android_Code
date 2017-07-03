@@ -62,6 +62,7 @@ class StartC(object):
                 Action.Action1()
                 break
             elif (Auswahl == 0):
+                print("\n\n\n")
                 sys.exit("Vielen dank für die benutzung dieser Software")
             elif (Auswahl == 2):
                 print("\n\n\n")
