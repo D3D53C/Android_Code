@@ -10,6 +10,7 @@ __email__ = "raphaelkreft@gmx.de & marc.steinebrunner@gmail.com"
 __status__ = "Dev"
 
 import RPi.GPIO as gpio
+gpio.setmode(GPIO.BOARD)
 
 
 class Servo(object):
