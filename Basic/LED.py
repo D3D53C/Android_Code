@@ -3,7 +3,7 @@ import time
 import RPi.GPIO as GPIO
 
 
-class LED:
+class LED_C:
     # A-Z = 1-26
     # Ä = 27
     # Ü = 28
