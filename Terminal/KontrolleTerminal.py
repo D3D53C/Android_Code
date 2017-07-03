@@ -1,7 +1,7 @@
 # coding=utf-8
 from .Action import ActrionC as Action
 from .Manuel import ManuelC as Manuel
-from Basic.LED import LED as LED
+from Basic.LED import LED_C as LED
 from Basic.servo import Servo as Servo
 
 
@@ -28,7 +28,7 @@ class StartC(object):
 
         self.Action = Action(self.Style, Array_Glieder, Klaue)
         self.Manuel = Manuel(self.Style, Array_Glieder, Klaue)
-        
+        self.LED = LED()
         
         self.StyleString =   "\nStyle Auswahl\n" \
                          "[1] Style mit Fingern\n" \
@@ -78,7 +78,7 @@ class StartC(object):
                 while (x <= 1):
                     Buchstabe = int(input("Bitte einen Buchtaben auswählen 1-26 = A-Z Ä=27 Ü=28 Ö=29"))
                     # noinspection PyCallByClass
-                    LED.LED.Alphabet(Buchstabe)
+                    self.LED.Alphabet(Buchstabe)
                     Ende = int(input("Noch ein Buchstabe ? [Y=1/N=0]"))
                     if (Ende == 1):
                         break
