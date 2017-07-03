@@ -62,7 +62,7 @@ class StartC(object):
                 Action.Action1()
                 break
             elif (Auswahl == 0):
-                sys.exit
+                sys.exitfunc
             elif (Auswahl == 2):
                 print("\n\n\n")
                 Action.Action2()
