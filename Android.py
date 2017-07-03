@@ -44,7 +44,7 @@ def main():
             print("Not available")
             break
         else:
-            print("Error")
+            print("Error 404")
 
 if __name__ == '__main__':
     main()
