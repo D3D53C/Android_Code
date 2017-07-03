@@ -46,7 +46,7 @@ class StartC(object):
     def Starten(self):
         print("\n\n\n")
         Auswahlstring = "Ihnen stehen folgende Aktionen zurverfügung:\n\n" \
-                        "[0]    Um das Programm zu beenden"
+                        "[0]    Um das Programm zu beenden\n"\
                         "[1]    Action1 (Finger auf und zu)\n" \
                         "[2]    Action2 (Bewegt Elenbogen hoch Handgelenk nach vorne und alle Finger auf und zu)\n" \
                         "[3]    Action3 (Greifen)\n" \
