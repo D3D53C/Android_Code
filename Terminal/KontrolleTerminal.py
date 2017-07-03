@@ -77,8 +77,9 @@ class StartC(object):
                     Buchstabe = int(input("Bitte einen Buchtaben auswählen 1-26 = A-Z Ä=27 Ü=28 Ö=29:  "))
                     # noinspection PyCallByClass
                     self.LED.Alphabet(Buchstabe)
-                    Ende = int(input("/nNoch ein Buchstabe ? [Y=1/N=0]\n"))
+                    Ende = int(input("Noch ein Buchstabe ? [Y=1/N=0] --> "))
                     if (Ende == 0):
+                        print("\n\n")
                         break
                     elif (Ende == 1):
                         x = 1
