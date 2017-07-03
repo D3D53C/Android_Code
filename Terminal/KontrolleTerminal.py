@@ -58,7 +58,7 @@ class StartC(object):
 
             if (Auswahl == 1):
                 print("\n\n\n")
-                Action.Action1(self)
+                Action.Action1()
                 break
             elif (Auswahl == 2):
                 print("\n\n\n")
