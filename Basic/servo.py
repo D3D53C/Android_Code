@@ -15,6 +15,8 @@ gpio.setmode(gpio.BOARD)
 
 class Servo(object):
     def __init__(self, pin, frequenz, PulseRangeMinInUS, PulseRangeMaxInUS, operating_angle):
+        gpio.setup(pin, gpio.OUT)
+        
         self.frequenz = frequenz
         self.pwmpin = gpio.PWM(pin, frequenz)
         self.PRMin = PulseRangeMinInUS / 1000
