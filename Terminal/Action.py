@@ -7,7 +7,7 @@ import sys
 # noinspection PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass,PyCallByClass
 class ActrionC():
     
-    Style = 1
+    style = 1
     
     def __init__(self, Style, Array_Glieder, Klaue):
         self.style = Style
