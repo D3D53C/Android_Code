@@ -29,6 +29,14 @@ class StartC(object):
         self.Manuel = Manuel(self.Style, Array_Glieder, Klaue)
 
     # noinspection PyCallByClass
+    def Change_Style(self):
+        StyleString = "Style Auswahl\n" \
+                      "[1] Style mit Fingern\n" \
+                      "[2] Style mit Klaue\n\n"
+
+        self.Style = int(input(StyleString))
+        
+        
     def Starten(self):
         print("\n\n\n")
         Auswahlstring = "Ihnen stehen folgende Actionen zurverfügung:\n\n" \
@@ -80,9 +88,4 @@ class StartC(object):
                 print("ERROR")
                 break
                """
-    def Change_Style(self):
-        StyleString = "Style Auswahl\n" \
-                      "[1] Style mit Fingern\n" \
-                      "[2] Style mit Klaue\n\n"
-
-        self.Style = int(input(StyleString))
+    
