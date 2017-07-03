@@ -32,7 +32,8 @@ class StartC(object):
     def Change_Style(self):
                 StyleString =   "Style Auswahl\n" \
                                 "[1] Style mit Fingern\n" \
-                                "[2] Style mit Klaue\n\n"
+                                "[2] Style mit Klaue\n"\
+                                "Ihre Eingabe :"
                 self.Style = int(input(StyleString))
         
         
