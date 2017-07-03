@@ -75,10 +75,11 @@ class StartC(object):
             elif (Auswahl == 6):
                   print("\n\n\n")
                 self.Change_Style()
+                """
             else:
                 print("ERROR")
                 break
-                
+               """
     def Change_Style(self):
         StyleString = "Style Auswahl\n" \
                       "[1] Style mit Fingern\n" \
