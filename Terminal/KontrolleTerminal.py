@@ -30,7 +30,7 @@ class StartC(object):
         self.Manuel = Manuel(self.Style, Array_Glieder, Klaue)
         
         
-        self.StyleString =   "Style Auswahl\n" \
+        self.StyleString =   "\nStyle Auswahl\n" \
                          "[1] Style mit Fingern\n" \
                          "[2] Style mit Klaue\n"\
                          "Ihre Eingabe :"
