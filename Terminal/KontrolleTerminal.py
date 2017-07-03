@@ -30,6 +30,7 @@ class StartC(object):
 
     # noinspection PyCallByClass
     def Starten(self):
+        print("\n\n\n")
         Auswahlstring = "Ihnen stehen folgende Actionen zurverfügung:\n\n" \
                         "[1]    Action1 (Finger auf und zu)\n" \
                         "[2]    Action2 (Bewegt Elenbogen hoch Handgelenk nach vorne und alle Finger auf und zu)\n" \
@@ -46,18 +47,18 @@ class StartC(object):
                 Action.Action1()
                 break
             elif (Auswahl == 2):
-                  print("\n\n\n")
+                print("\n\n\n")
                 Action.Action2()
                 break
             elif (Auswahl == 3):
-                  print("\n\n\n")
+                print("\n\n\n")
                 Action.Action3()
                 break
             elif (Auswahl == 4):
-                  print("\n\n\n")
+                print("\n\n\n")
                 Manuel.Kontrolle()
             elif (Auswahl == 5):
-                  print("\n\n\n")
+                print("\n\n\n")
                 x = 0
                 LED.Start()
                 while (x <= 1):
