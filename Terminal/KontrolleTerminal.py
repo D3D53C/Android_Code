@@ -33,8 +33,7 @@ class StartC(object):
         self.StyleString =   "\nStyle Auswahl\n" \
                          "[1] Style mit Fingern\n" \
                          "[2] Style mit Klaue\n"\
-                         "Ihre Eingabe :"
-                
+                         "Ihre Eingabe :"                
         self.Eingabebestaetigung = "Eingabe Bestätigt \n"\
                                "\n\n"
     # noinspection PyCallByClass
@@ -79,9 +78,9 @@ class StartC(object):
                     # noinspection PyCallByClass
                     self.LED.Alphabet(Buchstabe)
                     Ende = int(input("Noch ein Buchstabe ? [Y=1/N=0]"))
-                    if (Ende == 1):
+                    if (Ende == 0):
                         break
-                    elif (Ende == 0):
+                    elif (Ende == 1):
                         x = 1
                     else:
                         print("Error 405")
