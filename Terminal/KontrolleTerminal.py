@@ -51,7 +51,7 @@ class StartC(object):
 
             if (Auswahl == 1):
                 print("\n\n\n")
-                Action.Action1()
+                Action.Action1(self)
                 break
             elif (Auswahl == 2):
                 print("\n\n\n")
@@ -67,7 +67,7 @@ class StartC(object):
             elif (Auswahl == 5):
                 print("\n\n\n")
                 x = 0
-                LED.Start()
+                LED.Start(self)
                 while (x <= 1):
                     Buchstabe = int(input("Bitte einen Buchtaben auswählen 1-26 = A-Z Ä=27 Ü=28 Ö=29"))
                     # noinspection PyCallByClass
