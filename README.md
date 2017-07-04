@@ -1,3 +1,4 @@
 # Android_Code
 
-code
+This is the Repo for a school project
+
