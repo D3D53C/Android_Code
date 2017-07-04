@@ -59,18 +59,18 @@ class StartC(object):
             
             if (Auswahl == 1):
                 print("\n\n\n")
-                Action.Action1()
+                self.Action.Action1()
                 break
             elif (Auswahl == 0):
                 print("\n\n\n")
                 sys.exit("Vielen dank für die benutzung dieser Software")
             elif (Auswahl == 2):
                 print("\n\n\n")
-                Action.Action2()
+                self.Action.Action2()
                 break
             elif (Auswahl == 3):
                 print("\n\n\n")
-                Action.Action3()
+                self.Action.Action3()
                 break
             elif (Auswahl == 4):
                 print("\n\n\n")
