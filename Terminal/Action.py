@@ -23,7 +23,7 @@ class ActrionC():
         self.E2S = Array_Glieder[7]
 
     def Action1(self):  # Finger einzelnd ein und Ausklappen
-
+        print("BANG")
         if self.style == 1:
             self.F2S.change_position(0)
             time.sleep(2)
