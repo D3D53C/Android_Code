@@ -63,42 +63,42 @@ class ManuelC:
     # noinspection PyCallByClass
     def KleinerFinger(self, Degree):
         # noinspection PyCallByClass
-        self.Finger.change_position(Degree)
+        self.F5S.change_position(Degree)
 
     # noinspection PyCallByClass
     def Ringfinger(self, Degree):
         # noinspection PyCallByClass
-        self.Finger.change_position(Degree)
+        self.F4S.change_position(Degree)
 
     # noinspection PyCallByClass
     def Mittelfinger(self, Degree):
         # noinspection PyCallByClass
-        self.Finger.change_position(Degree)
+        self.F3S.change_position(Degree)
 
     # noinspection PyCallByClass
     def Zeigefinger(self, Degree):
         # noinspection PyCallByClass
-        self.Finger.change_position(Degree)
+        self.F2S.change_position(Degree)
 
     # noinspection PyCallByClass
     def Daumen(self, Degree):
         # noinspection PyCallByClass
-        self.Finger.change_position(Degree)
+        self.F1S.change_position(Degree)
 
     # noinspection PyCallByClass
     def EllenbogenH(self, Degree):
         # noinspection PyCallByClass
-        self.Finger.change_position(Degree)
+        self.E1S.change_position(Degree)
 
     # noinspection PyCallByClass
     def EllenbogenV(self, Degree):
         # noinspection PyCallByClass
-        self.Finger.change_position(Degree)
+        self.E2S.change_position(Degree)
 
     # noinspection PyCallByClass
     def Handgelenk(self, Degree):
         # noinspection PyCallByClass
-        self.Finger.change_position(Degree)
+        self.H1S.change_position(Degree)
 
     def Klaue(self, Offengeschlossen):
         if Offengeschlossen == 1:
