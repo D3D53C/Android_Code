@@ -35,12 +35,15 @@ class ManuelC:
             if Auswahl == 1:
                 Degree = int(input("Degree ?\n"))
                 self.Daumen(Degree)
+                print(" ")
             elif Auswahl == 2:
                 Degree = int(input("Degree ?\n"))
                 self.Zeigefinger(Degree)
+                print(" ")
             elif Auswahl == 3:
                 Degree = int(input("Degree ?\n"))
                 self.Mittelfinger(Degree)
+                print(" ")
             elif Auswahl == 4:
                 Degree = int(input("Degree ?\n"))
                 self.Ringfinger(Degree)
@@ -53,12 +56,15 @@ class ManuelC:
             elif Auswahl == 7:
                 Degree = int(input("Degree ?\n"))
                 self.EllenbogenH(Degree)
+                print(" ")
             elif Auswahl == 8:
                 Degree = int(input("Degree ?\n"))
                 self.EllenbogenV(Degree)
+                print(" ")
             elif Auswahl == 9:
                 Offen_Geschlossen = int(input(KlaueString))
                 self.Klaue(Offen_Geschlossen)
+                print(" ")
 
     # noinspection PyCallByClass
     def KleinerFinger(self, Degree):
