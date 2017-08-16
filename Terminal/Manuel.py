@@ -68,7 +68,7 @@ class ManuelC:
                 print(" ")
             elif Auswahl == 10:
                 print("Brake")
-                brake
+                break
 
     # noinspection PyCallByClass
     def KleinerFinger(self, Degree):
