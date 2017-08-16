@@ -26,7 +26,8 @@ class ManuelC:
         Auswahlstring = "Manuele Kontrollle \n" \
                         "Daumen 1,Zeigefinger 2,Mittelfinger 3, Ringfinger 4, KFinger 5 \n" \
                         "Handgelenk 6, EllenbogenH 7, EllenbogenV 8\n"\
-                        "Falls Klaue ausgewählt is: 9 \n\n"
+                        "Falls Klaue ausgewählt is: 9 \n"\
+                        "Zum Beenden 10\n\n"
 
         KlaueString = "Zum schliessen 1 Drücken\n"\
                       "Zum öffnen 2 druecken\n\n"
@@ -65,6 +66,9 @@ class ManuelC:
                 Offen_Geschlossen = int(input(KlaueString))
                 self.Klaue(Offen_Geschlossen)
                 print(" ")
+            elif Auswahl == 10:
+                print("Brake")
+                brake
 
     # noinspection PyCallByClass
     def KleinerFinger(self, Degree):
