@@ -17,6 +17,7 @@ class StartC(object):
 
         Klaue[0] = 180
         Klaue[1] = 0
+
         self.Pin_Array[0] = 29
         self.Pin_Array[1] = 32
         self.Pin_Array[2] = 33
@@ -48,16 +49,16 @@ class StartC(object):
         self.Eingabebestaetigung =  "Eingabe Bestätigt \n" \
                                     "\n\n"
         self.SettingsString =       "\n *********Settings*********\n " \
-                                    "[0] Daumen         => Pin:" , self.Pin_Array[0] \
-                                    "[1] Zeigefinger    => Pin:" , self.Pin_Array[1] \
-                                    "[2] Mittelfinger   => Pin:" , self.Pin_Array[2] \
-                                    "[3] Ringfinger     => Pin:" , self.Pin_Array[3] \
-                                    "[4] Kleinerfinger  => Pin:" , self.Pin_Array[4] \
-                                    "[5] Handgelenk     => Pin:" , self.Pin_Array[5] \
-                                    "[6] Ellenbogen H.  => Pin:" , self.Pin_Array[6] \
-                                    "[7] Ellenbogen V.  => Pin:" , self.Pin_Array[7] \
-                                    "[8] LED            => Pin:" , self.Pin_Array[8] \
-                                    "[9] Style          =>     " , self.Style        \
+                                    "[0] Daumen         => Pin:" , self.Pin_Array[0] , "\n"\
+                                    "[1] Zeigefinger    => Pin:" , self.Pin_Array[1] , "\n"\
+                                    "[2] Mittelfinger   => Pin:" , self.Pin_Array[2] , "\n"\
+                                    "[3] Ringfinger     => Pin:" , self.Pin_Array[3] , "\n"\
+                                    "[4] Kleinerfinger  => Pin:" , self.Pin_Array[4] , "\n"\
+                                    "[5] Handgelenk     => Pin:" , self.Pin_Array[5] , "\n"\
+                                    "[6] Ellenbogen H.  => Pin:" , self.Pin_Array[6] , "\n"\
+                                    "[7] Ellenbogen V.  => Pin:" , self.Pin_Array[7] , "\n"\
+                                    "[8] LED            => Pin:" , self.Pin_Array[8] , "\n"\
+                                    "[9] Style          =>     " , self.Style        , "\n"\
                                     "Wollen sie etwas Ändern? (Y = 1|N = 0): "
 
 
@@ -126,7 +127,7 @@ class StartC(object):
                         print("Error 405")
             elif (Auswahl == 6):
                 print("\n\n\n")
-                self.Settings()
+                self.Change_Style()
                 """
             else:
                 print("ERROR")
