@@ -17,7 +17,6 @@ class StartC(object):
 
         Klaue[0] = 180
         Klaue[1] = 0
-
         self.Pin_Array[0] = 29
         self.Pin_Array[1] = 32
         self.Pin_Array[2] = 33
@@ -58,7 +57,7 @@ class StartC(object):
                                     "[6] Ellenbogen H.  => Pin:" + self.Pin_Array[6] + "\n"\
                                     "[7] Ellenbogen V.  => Pin:" + self.Pin_Array[7] + "\n"\
                                     "[8] LED            => Pin:" + self.Pin_Array[8] + "\n"\
-                                    "[9] Style          =>     " + self.Style        + "\n"\
+                                    "[9] Style          =>     " , self.Style        , "\n"\
                                     "Wollen sie etwas Ändern? (Y = 1|N = 0): "
 
 
