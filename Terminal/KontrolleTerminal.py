@@ -127,7 +127,7 @@ class StartC(object):
                         print("Error 405")
             elif (Auswahl == 6):
                 print("\n\n\n")
-                self.Change_Style()
+                self.Settings()
                 """
             else:
                 print("ERROR")
