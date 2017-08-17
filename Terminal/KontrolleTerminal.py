@@ -12,7 +12,7 @@ class StartC(object):
 
         self.Style = 1
         Array_Glieder = [0, 1, 2, 3, 4, 5, 6, 7]
-        self.Pin_Array = [0, 1, 2, 3, 4, 5, 6, 7]
+        self.Pin_Array = [0, 1, 2, 3, 4, 5, 6, 7, 8]
         Klaue = [0, 1]
 
         Klaue[0] = 180
