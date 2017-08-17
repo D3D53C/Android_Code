@@ -48,16 +48,16 @@ class StartC(object):
         self.Eingabebestaetigung =  "Eingabe Bestätigt \n" \
                                     "\n\n"
         self.SettingsString =       "\n *********Settings*********\n " \
-                                    "[0] Daumen         => Pin:" , self.Pin_Array[0] , "\n"\
-                                    "[1] Zeigefinger    => Pin:" , self.Pin_Array[1] , "\n"\
-                                    "[2] Mittelfinger   => Pin:" , self.Pin_Array[2] , "\n"\
-                                    "[3] Ringfinger     => Pin:" , self.Pin_Array[3] , "\n"\
-                                    "[4] Kleinerfinger  => Pin:" , self.Pin_Array[4] , "\n"\
-                                    "[5] Handgelenk     => Pin:" , self.Pin_Array[5] , "\n"\
-                                    "[6] Ellenbogen H.  => Pin:" , self.Pin_Array[6] , "\n"\
-                                    "[7] Ellenbogen V.  => Pin:" , self.Pin_Array[7] , "\n"\
-                                    "[8] LED            => Pin:" , self.Pin_Array[8] , "\n"\
-                                    "[9] Style          =>     " , self.Style        , "\n"\
+                                    "[0] Daumen         => Pin:" , self.Pin_Array[0] \
+                                    "[1] Zeigefinger    => Pin:" , self.Pin_Array[1] \
+                                    "[2] Mittelfinger   => Pin:" , self.Pin_Array[2] \
+                                    "[3] Ringfinger     => Pin:" , self.Pin_Array[3] \
+                                    "[4] Kleinerfinger  => Pin:" , self.Pin_Array[4] \
+                                    "[5] Handgelenk     => Pin:" , self.Pin_Array[5] \
+                                    "[6] Ellenbogen H.  => Pin:" , self.Pin_Array[6] \
+                                    "[7] Ellenbogen V.  => Pin:" , self.Pin_Array[7] \
+                                    "[8] LED            => Pin:" , self.Pin_Array[8] \
+                                    "[9] Style          =>     " , self.Style        \
                                     "Wollen sie etwas Ändern? (Y = 1|N = 0): "
 
 
