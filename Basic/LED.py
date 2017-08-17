@@ -9,8 +9,8 @@ class LED_C:
     # Ü = 28
     # Ö = 29
 
-    def __init__(self):
-        self.pin = 7
+    def __init__(self, Pin):
+        self.pin = Pin
 
         GPIO.setmode(GPIO.BOARD)
         GPIO.setup(self.pin, GPIO.OUT)
