@@ -40,4 +40,5 @@ class Servo(object):
         self.pwmpin.ChangeFrequency(frequenz)
 
     def change_position(self, degrees):
-        self.pwmpin.ChangeDutyCycle(self.degree_to_cycle(degrees))
+        for i in range(0, degrees):
+            self.pwmpin.ChangeDutyCycle(self.degree_to_cycle(i))
